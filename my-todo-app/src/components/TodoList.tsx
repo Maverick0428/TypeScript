@@ -7,6 +7,12 @@ interface Todo {
   text: string;
 }
 
+interface TodoItem {
+  id: number;
+  text: string;
+}
+
+
 const TodoList: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [input, setInput] = useState('');
