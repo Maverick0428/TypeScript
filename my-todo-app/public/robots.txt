@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://nextjs-marketing-website.basehub.com
+
+# Sitemaps
+Sitemap: https://nextjs-marketing-website.basehub.com/sitemap.xml
